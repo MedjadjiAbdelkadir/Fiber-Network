@@ -3,7 +3,7 @@ It is a website for Fiber Network
 
 ## Screenshots
 ### Header Page 
-<img src="https://github.com/MedjadjiAbdelkadir/Fiber-Network/blob/main/public/Screenshots/Screenshot_Header.png" width="95%" height="500">
+<img src="https://github.com/MedjadjiAbdelkadir/Fiber-Network/blob/main/public/Screenshots/Screenshot_Header.png" width="100%" height="500">
 
 ## Technologies Used in the Project 
 
