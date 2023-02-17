@@ -1,0 +1,1228 @@
+
+/*--------------- Start Import PT Sans Font ---------------*/
+
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+
+/*--------------- End Import PT Sans Font ---------------*/
+
+:root{
+    --basic-color-blue: #074193;
+    --basic-background-orange: transparent linear-gradient(90deg, #FF8557 0%, #FFD26B 100%) 0% 0% no-repeat padding-box;
+}
+
+/*---------------------- Start Syles Of Body ----------------------*/
+body{
+    padding: 0; 
+    margin: 0;
+}
+/*---------------------- End Syles Of Body ----------------------*/
+
+/*---------------------- Start Syles Of Scroll Section ----------------------*/
+.scroll-section button{
+    display: none;
+    position: fixed;
+    bottom: 10px;  right: 10px;
+    z-index: 99; 
+    border: 1px solid #5a5858;
+    cursor: pointer; 
+    border-radius: 50%;
+    padding: 1px;
+    background-color: #e1e8ee;
+    color: #FFF;
+}
+.scroll-section button img{
+    width: 50px;
+    height: 50px;
+}
+.scroll-section button:hover {
+    background-color: #dddedf 
+}
+/*---------------------- End Syles Of Scroll Section ----------------------*/
+
+/*---------------------- Start Syles Of Header Section ----------------------*/
+
+.header{
+    background: #FFFFFF;
+    opacity: 1;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 25px;
+}
+.header .video-background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90vh;
+    z-index: 1%;
+}
+.header .video-background video{
+    width: 100%;
+    position: absolute;
+    clip-path: polygon(100% 0, 100% 55%, 0 92%, 0 0);
+}
+
+.header .image-background{
+    background-image: url("../assets/images/white.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* top: 92px; */
+    /* margin-top: 86px; */
+    margin-top: 6%;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+    background-position-x: left;
+    background-position-y: bottom; 
+    background-position: 0px 100%;
+}
+
+.header .content{
+    
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+.header .logo-header{
+    text-align: center;
+    margin: 10px auto;
+
+}
+.header .logo-header img{
+    height: 100px;
+    padding: 0;
+    margin: 0;
+}
+.header .title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    font: normal normal bold 49px/64px PT Sans;
+    letter-spacing: 0px;
+    color: #FFD26B;
+    text-transform: uppercase;
+}
+.header p{
+    height: 151px;
+    margin-bottom: 40px;
+    text-align: left;
+    font: normal normal normal 40px/52px PT Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.header .list-items .item{
+    margin: 10px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 5px 5px 30px #00000029;
+    border-radius: 10px;
+}
+.header .list-items .item .icon{
+    display: inline-block;
+    width: 52px;
+    margin: 0 10px;
+}
+.header .list-items .item img{
+    width: 49px;
+    height: 48px;
+    margin-right: 20px;
+}
+.header .list-items .item h4{
+    font: normal normal bold 26px/33px PT Sans;
+    letter-spacing: 0px;
+    color: #074193;
+    padding-top: 10px;
+    display: inline-block;
+}
+
+@media screen and (max-width: 1200px)  {
+    .header{
+        background: #074193 0% 0% no-repeat padding-box;
+        height: 700px;
+    }
+    .header .video-background video{
+        display: none;
+    }
+    .header .image-background{
+        background-image: none;
+    }
+}
+@media screen and (max-width: 992px) {
+    .header .list-items .item{
+        text-align: center;
+
+    }
+    .header .list-items .item .icon{
+        margin: 10px auto;
+        width: 100%;
+        display: inline;
+    }
+    .header .list-items .item img{
+        width: 100%;
+    }
+    .header .list-items .item h4{
+        width: 100%;
+        display: inline;
+
+    }
+}
+@media screen and (max-width: 768px) {
+
+    .header{
+        padding-top: 15px;
+        height: 800px;
+    }
+    .header .logo-header{
+        
+    }
+    .header .title{
+        font: normal normal bold 29px/44px PT Sans;
+        line-height: 1.2;
+    }
+    .header p{
+        line-height: 1;
+        margin: 0;
+    }
+    .header .image-background{
+        height: 800px;
+    }
+    .video-background{
+        height: 800px;
+    }
+    .header .list-items .item{
+        text-align: left;
+        /* text-align: center; */
+    }
+    .header .list-items .item .icon{
+        display: inline-block;
+        width: 55px;
+        margin: 0 10px;
+    }
+    .header .list-items .item img{
+        
+    }
+    .header .list-items .item h4{
+        display: inline-block;
+        width: auto;
+    }
+}
+/*---------------------- End Syles Of Header Section ----------------------*/
+
+/*---------------------- Start Syles Of Main Section ----------------------*/
+.main{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+.main .title-main{
+
+}
+.main .title-main h2{
+    text-align: center;
+    font: normal normal bold 49px/64px PT Sans;
+    letter-spacing: 0px;
+    color: #074193;
+    text-transform: uppercase;
+}
+.main .content-one {
+    position: relative;
+    height: 422px; width: 422px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.main .content-one .over-1{
+    z-index: 1;
+    position: absolute;
+    width: 100%;height: 100%;
+    border-radius: 5px;
+    background: #FFFFFF ;
+    box-shadow: 0px 3px 20px #00000029;
+    margin-left: 40px;
+    margin-top: 40px;
+    
+}
+.main .content-one .image{
+    position: absolute;
+    top: 0;left: 0;
+    z-index: 10;
+    width: 100%; height: 100%;    
+    background-size: cover;
+    background-image: url("../assets/images/anim_fibernetwork_01.gif");
+    background-repeat: no-repeat;
+}
+
+.main .content-two{
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.main .card-content:first-child{
+    margin-bottom: 10px;
+}
+.main .card-content .icon{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    vertical-align: top;
+    margin-top: 10px;
+}
+.main .card-content .icon img{
+    width: 48px;
+    height: 56px;
+
+}
+.main .card-content .content-body{
+    display: inline-block;
+    width:85%;
+}
+.main .card-content .content-body .title h3{
+    font: normal normal bold 60px/78px PT Sans;
+    letter-spacing: 0px;
+    color: #074193;
+}
+.main .card-content .content-body p{
+    font: normal normal normal 24px/20px PT Sans;
+    letter-spacing: 0px;
+    color: #595E64;
+}
+.main .card-content .content-body p span{
+    font: normal normal normal 16px/20px PT Sans;
+}
+.main .card-content:last-child .content-body p {
+    margin-bottom: 30px;
+}
+.main .card-content .content-body a{
+    font: normal normal 600 13px/12px PT Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    width: 120px; 
+    height: 16px;
+    padding: 10px 25px;
+    background: #074193;
+    box-shadow: 0px 10px 20px #00000029;
+    border-radius: 23px;
+    text-decoration: none;
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 768px){
+    .main .card-content{
+        /* background-color: #FF8557; */
+    }
+}
+@media only screen and (max-width: 768px) {
+    .main .card-content{
+        /* background-color: #57aeff; */
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px){
+
+}
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    .main .title-main h2{
+        font: normal normal bold 30px/54px PT Sans;
+        line-height: 1.1;
+    }
+}
+@media screen and (max-width: 992px){
+    .main .title-main h2{
+        font: normal normal bold 25px/54px PT Sans;
+        line-height: 1.1;
+    }
+}
+@media screen and (max-width: 600px){
+    .main .title-main{
+        text-align: left;
+    }
+    .main .title-main h2{
+        text-align: left;
+        font: normal normal bold 23px/28px PT Sans;
+        line-height: 1.3;
+    }
+    .main .content-one,
+    .main .content-two{
+        margin-top: 25px;
+    }
+    .main .card-content .content-body .title{
+        margin-bottom: 0px;
+    }
+    .main .card-content .content-body .title h3{
+        margin-bottom: 0;
+        font: normal normal bold 50px/78px PT Sans;
+    }
+}
+/*---------------------- Start Syles Of Main Section ----------------------*/
+
+
+
+/*---------------------- Start Syles Of Travaux Section ----------------------*/
+
+.travaux-section{
+    padding-top: 21px;
+    padding-bottom: 15px;
+    background: var(--basic-background-orange);
+}
+.travaux-section .card-content{
+    height: 280px;
+    margin-bottom: 5px;
+}
+.travaux-section .card-content .order{
+    text-align: center;
+    font: normal normal bold 119px/119px PT Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-bottom: -50px;
+}
+
+.travaux-section .card-content.avater{
+    text-align: center;
+    opacity: 1;
+    width: 100%;
+}
+
+.travaux-section .card-content .avater .img-1{
+    width: 226px;
+    height: 155px;
+}
+.travaux-section .card-content .avater .img-2 , 
+.travaux-section .card-content .avater .img-4{
+    margin-left: -90px;
+    width: 286px;
+    height: 155px;
+}
+.travaux-section .card-content .avater .img-3{
+    width: 225px;
+    height: 159px;
+}
+
+.travaux-section .card-content .title{
+    color: var(--basic-color-blue);
+    text-align: center;
+    font: normal normal bold 20px/20px PT Sans;
+    letter-spacing: 0px;
+    color: #074193;
+    text-transform: uppercase;
+    opacity: 1;
+}
+/*---------------------- End Syles Of Travaux Section ----------------------*/
+
+
+/*---------------------- Start Syles Of Entreprise Spécialisée Section ----------------------*/
+
+.entreprise-section{
+    padding-top: 30px;
+    /* background: #F8F9FA 0% 0% no-repeat padding-box; */
+    padding-top: 60px; 
+    padding-bottom: 60px;
+    background-image: url("../assets/images/Tracé 97.svg");
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+.entreprise-section .content-one .logo{
+    margin-top: 30px;
+    height: 189px;
+    margin-bottom: 20px;
+}
+.entreprise-section .content-one .title h3{
+    font: normal normal bold 60px/65px PT Sans;
+    letter-spacing: 0px;
+    color: #074193;
+}
+.entreprise-section .content-one .content h6{
+    font: normal normal bold 24px/30px PT Sans;
+    letter-spacing: 0px;
+    color: #595E64;
+}
+.entreprise-section .content-one .content p{
+    font: normal normal normal 20px/30px PT Sans;
+    letter-spacing: 0px;
+    color: #595E64;
+}
+.entreprise-section .content-one .content h5{
+    font: normal normal bold 26px/30px PT Sans;
+    letter-spacing: 0px;
+    color: #FD8557;
+}
+
+.entreprise-section .content-two{
+    width: 100%;
+}
+.entreprise-section .content-two .item-1{
+    margin-bottom: 20px;
+}
+.entreprise-section .content-two .item-1,
+.entreprise-section .content-two .item-2{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 20px #00000029;
+    border-radius: 5px;
+    width: 100%;
+    /* padding-left: 24px; */
+
+}
+
+.entreprise-section .content-two .item-1 .avater img,
+.entreprise-section .content-two .item-2 .avater img{
+    width: 100%;
+}
+.entreprise-section .content-two .item-1 .list ,
+.entreprise-section .content-two .item-2 .list {
+    margin-top: 20px;
+}
+.entreprise-section .content-two .item-1 .list .title,
+.entreprise-section .content-two .item-2 .list .title{
+    font: normal normal bold 24px/20px PT Sans;
+    letter-spacing: 0px;
+    color: #595E64;
+    margin-left: 15px;
+}
+.entreprise-section .content-two ul li{
+    font: normal normal normal 16px/20px PT Sans;
+    letter-spacing: 0px;
+    color: #595E64;
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+
+}
+@media screen and (max-width: 992px){
+    .entreprise-section .content-one .logo{
+        margin-top: 15px;
+        height: 130px;
+    }
+    .entreprise-section{
+        padding-top: 15px;
+    }
+    .entreprise-section .content-two .item-1 .avater img,
+    .entreprise-section .content-two .item-2 .avater img{
+        height: 240px;
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 600px){
+    .entreprise-section .content-one .logo{
+        margin-top: 15px;
+        height: 130px;
+    }
+    .entreprise-section{
+        padding-top: 15px;
+    }
+    .entreprise-section .content-two .item-1 .avater img,
+    .entreprise-section .content-two .item-2 .avater img{
+        height: 240px;
+        margin-top: 10px;
+    }
+}
+/*---------------------- End Syles Of Entreprise spécialisée Section ----------------------*/
+
+
+/*---------------------- Start Syles Of Demande Etude Section  ----------------------*/
+
+.demande-etude-section{
+    background: var(--basic-background-orange);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.demande-etude-section h1{
+    text-align: left;
+    letter-spacing: 0px;
+    color: var(--basic-color-blue);
+    text-transform: uppercase;
+    font: normal normal bold 60px/55px PT Sans;
+    margin-bottom: 25px;
+}
+.demande-etude-section p{
+    color: var(--basic-color-blue);
+    text-align: left;
+    font: normal normal normal 20px/55px PT Sans;
+    letter-spacing: 0px;
+    line-height: 1.3;
+}
+.demande-etude-section p::first-letter{
+    text-transform: capitalize;
+}
+.demande-etude-section a{
+    line-height: 200px;
+    text-transform: uppercase;
+    width: 120; height: 16px;
+    padding: 14px 25px;
+    color: #fff;
+    background: #074193 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 20px #00000029;
+    border-radius: 23px;
+    opacity: 1;
+    text-decoration: none;
+
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .demande-etude-section{
+
+    }
+    .demande-etude-section h1{
+
+        font: normal normal bold 30px/55px PT Sans;
+        line-height: 1.2;
+        margin-bottom: 15px;
+    }
+    .demande-etude-section a{
+        line-height: 140px;
+        text-transform: uppercase;
+        padding: 14px 25px;
+    }
+}
+@media screen and (max-width: 768px){
+    .demande-etude-section h1{
+        font: normal normal bold 30px/55px PT Sans;
+        line-height: 1.2;
+        margin-bottom: 15px;
+    }
+    .demande-etude-section a{
+        line-height: 20px;
+        text-transform: uppercase;
+        padding: 14px 25px;
+    }
+}
+/*---------------------- End Syles Of  Demande Etude Section ----------------------*/
+
+/*---------------------- Start Syles Of Expertises Section ----------------------*/
+
+.expertise-section{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #074193 0% 0% no-repeat padding-box;
+    /* opacity: 0.78; */
+}
+.expertise-section .title h5{
+    font: normal normal bold 60px/55px PT Sans;
+    letter-spacing: 0px;
+    color: #FFD26B;
+    opacity: 1;
+}
+.expertise-section p{
+    text-align: left;
+    font: normal normal normal 20px/28px PT Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.expertise-section .card-contnet{
+
+
+}
+.expertise-section .card-contnet .icon{
+    display: inline-block;
+    width: 55px;
+    vertical-align: top;
+    margin-top: 10px;
+}
+.expertise-section .card-contnet .icon img{
+    opacity: 1;
+}
+.expertise-section .card-contnet:first-child .icon img{
+    width: 49px;
+    height: 49px;
+}
+.expertise-section .card-contnet:nth-of-type(2) .icon img{
+    width: 47px;
+    height: 33px;
+}
+.expertise-section .card-contnet:nth-of-type(3) .icon img{
+    width: 37px;
+    height: 42px;
+}
+.expertise-section .card-contnet:nth-of-type(4) .icon img{
+    width: 49px;
+    height: 47px;
+}
+.expertise-section .card-contnet:nth-of-type(5) .icon img{
+    width: 41px;
+   height: 48px;
+}
+.expertise-section .card-contnet .contnet{
+    width: 86%;
+    display: inline-block;
+}
+.expertise-section .card-contnet .contnet .title{
+
+    font: normal normal bold 20px/27px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #FFD26B;
+    margin-top: 0px;
+}
+.expertise-section .card-contnet .contnet .desc{
+
+}
+.expertise-section .card-contnet .contnet .desc p{
+    font: normal normal normal 20px/27px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1200px) {
+    .expertise-section{
+        padding-top: 40px;
+        padding-bottom: 10px;
+
+        /* opacity: 0.78; */
+    }
+}
+/*---------------------- End Syles Of Expertises Section ----------------------*/
+
+
+/*---------------------- Start Syles Of Réalisations Section ----------------------*/
+
+.réalisations {
+    margin-top: 0px;
+    margin-bottom: 83px;
+}
+.réalisations .header{
+    padding-top: 230px;
+    width: 100%;
+    height: 10px;
+    background-position-x: left;
+    background-position-y: bottom; 
+    background-position: 0px 100%;
+
+    background-image: url("../assets/images/Tracé\ 97.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .réalisations .header{
+        background-image: none;
+        background: #F8F9FA 0% 0% no-repeat padding-box;
+    }
+}
+
+.réalisations .header .title{
+    font: normal normal bold 60px/65px PT Sans;
+    letter-spacing: 0px;
+    color: #074193;
+    opacity: 1;
+    margin-top: -180px;
+}
+
+.réalisations .items {
+    margin-top: -50px;
+    height: 1252px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4,1fr);
+}
+
+@media screen and (max-width: 992px) {
+    .réalisations .items {
+        margin-top: -50px;
+        height: 1252px;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6,1fr);
+    }
+}
+
+.réalisations .items div{
+    margin: 0;
+    border-radius: 6px;
+}
+
+.réalisations .items div:nth-of-type(1){
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    background-image: url("../assets/images/réalisations-img-1.png");
+    background-size: cover;
+}
+
+@media screen and (max-width: 992px) {
+    .réalisations .items div:nth-of-type(1){
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+}
+
+.réalisations .items div:nth-of-type(2){
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-image: url("../assets/images/réalisations-img-2.png");
+    background-size: cover;
+}
+
+@media screen and (max-width: 992px) {
+    .réalisations .items div:nth-of-type(2){
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+}
+
+.réalisations .items div:nth-of-type(3){
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+    background-image: url("../assets/images/réalisations-img-3.png");
+    background-size: cover;
+
+}
+
+@media screen and (max-width: 992px) {
+    .réalisations .items div:nth-of-type(3){
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        background-image: url("../assets/images/réalisations-img-4.png");
+
+    }
+}
+
+.réalisations .items div:nth-of-type(4){
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    background-image: url("../assets/images/réalisations-img-4.png");
+    background-size: cover;
+}
+
+@media screen and (max-width: 992px) {
+    .réalisations .items div:nth-of-type(4){
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 5;
+    
+        background-image: url("../assets/images/réalisations-img-3.png");
+        background-size: cover;
+    }
+}
+
+.réalisations .items div:nth-of-type(5){ 
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 5;
+
+    background-image: url("../assets/images/réalisations-img-5.png");
+    background-size: cover;
+}
+
+@media screen and (max-width: 992px) {
+    .réalisations .items div:nth-of-type(5){
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 5;
+    
+        background-image: url("../assets/images/réalisations-img-5.png");
+        background-size: cover;
+    }
+}
+
+.réalisations .items div:nth-of-type(6){
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+    background-image: url("../assets/images/réalisations-img-6.png");
+    background-size: cover;
+}
+
+@media screen and (max-width: 992px) {
+    .réalisations .items div:nth-of-type(6){
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    
+        background-image: url("../assets/images/réalisations-img-6.png");
+        background-size: cover;
+    }
+}
+
+.réalisations .items div:nth-of-type(7){
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+    background-image: url("../assets/images/réalisations-img-7.png");
+    background-size: cover;
+}
+
+@media screen and (max-width: 992px) {
+    .réalisations .items div:nth-of-type(7){
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    
+        background-image: url("../assets/images/réalisations-img-7.png");
+        background-size: cover;
+    }
+}
+
+.réalisations .items div:nth-of-type(8){
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+
+    background-image: url("../assets/images/réalisations-img-8.png");
+    background-size: cover;
+}
+
+@media screen and (max-width: 992px) {
+    .réalisations .items div:nth-of-type(8){
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 6;
+        grid-row-end: 7;
+    
+        background-image: url("../assets/images/réalisations-img-7.png");
+        background-size: cover;
+    }
+}
+
+/*---------------------- End Syles Of Réalisations Section ----------------------*/
+
+/*---------------------- Start Syles Of Project Section ----------------------*/
+
+.project-section{
+    width: 100%;
+    height: 466px;
+    position: relative;
+    background-image: url("/assets/images/project-section.png");
+    background-position: 80%;
+}
+.project-section .over-live{
+    z-index: 10;
+    position: absolute;
+    width: 100%; height: 100%;
+    top: 0; left: 0;
+    background: rgb(255,255,255);
+    background: linear-gradient(75deg, rgba(255,255,255,1) 49%, rgba(255,255,255,0.09007352941176472) 86%);
+}
+.section-container .section-container{
+    position: relative;
+    z-index: 99;
+}
+.project-section .title{ 
+    position: relative;
+    z-index: 99;
+    padding-top: 60px;
+    text-align: left;
+    font: normal normal bold 60px/55px PT Sans;
+    letter-spacing: 0px;
+    color: #074193;
+}
+.project-section p{
+    text-align: left;
+    font: normal normal normal 20px/55px PT Sans;
+    letter-spacing: 0px;
+    color: #074193;
+    margin-bottom: 40px;
+    position: relative;
+    z-index: 99;
+}
+.project-section a{
+    text-transform: uppercase;
+    width: 120; height: 16px;
+    padding: 14px 25px;
+    background: #074193;
+    border-radius: 23px;
+    position: relative;
+    z-index: 99;
+    text-decoration: none;
+    font: normal normal 600 13px/16px  PT Sans;;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+/*---------------------- End Syles Of Project Section ----------------------*/
+
+/*---------------------- Start Syles Of Contact Section ----------------------*/
+.contact-section{
+    padding-top: 40px;
+    margin-bottom: 100px;
+    padding-bottom: 20px;
+    background: transparent linear-gradient(90deg, #FF8557 0%, #FFD26B 100%) 0% 0% no-repeat padding-box;
+}
+.contact-section .header-content h2{
+    font: normal normal bold 60px/55px PT Sans;
+    letter-spacing: 0px;
+    color: #074193;
+    text-transform: uppercase;
+}
+.contact-section .header-content p{
+    font: normal normal normal 20px/55px PT Sans;
+    letter-spacing: 0px;
+    color: #074193;
+    margin-bottom: 30px;
+}
+.contact-section .card-content{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 5px 5px 30px #00000029;
+    border-radius: 10px;
+    padding: 30px;
+    padding-bottom: 10px;
+    margin-bottom: -60px;
+}
+
+.contact-section .card-content .icon{
+    /* width: 108px; 
+    height: 108px; */
+    /* background: #F8F9FA 0% 0% no-repeat padding-box; */
+}
+
+.contact-section .card-content .icon img{
+    width: 90px;
+    height: 90px;
+    background-color:#f1f2f6;
+    padding: 25px;
+    border-radius: 50%;
+}
+.contact-section .card-content .title{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    height: 55px;
+    margin-bottom: 15px;
+    height: 63px;
+}
+.contact-section .card-content .title h5{
+    font: normal normal bold 26px/33px PT Sans;
+    letter-spacing: 0px;
+    color: #074193;
+}
+.contact-section .card-content .info ul{
+    padding-left: 0;
+    margin-left: 0;
+}
+.contact-section .card-content .info li{
+    margin-left: 15px;
+}
+.contact-section .card-content .info li{
+    font: normal normal normal 20px/30px PT Sans;
+    letter-spacing: 0px;
+    color: #595E64;
+}
+
+/* ----- Start Media ------*/
+
+@media screen and (min-width:600px) and (max-width: 992px){
+
+}
+
+
+@media only screen and (max-width: 992px) {
+    .contact-section{
+        padding-top: 10px;
+    }
+    .contact-section .header-content h2{
+        font: normal normal bold 40px/35px PT Sans;
+        letter-spacing: 0px;
+        color: #074193;
+        text-transform: uppercase;
+    }
+    .contact-section .header-content p{
+        font: normal normal normal 20px/25px PT Sans;
+        letter-spacing: 0px;
+        color: #074193;
+        margin-bottom: 15px;
+    }
+    .contact-section .card-content{
+        padding: 0;
+        margin: 0;
+        padding: 10px;
+        margin-bottom: 6px;
+    }
+    .contact-section .card-content .icon{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .contact-section .card-content .body-content{
+        padding: 0;
+        margin: 0;
+        /* display: inline-block; */
+        text-align: center;
+        margin: 0 auto;
+        
+    }
+    .contact-section .card-content .body-content .title{
+        display: none;
+       
+    }
+    .contact-section .card-content .body-content ul li{
+        list-style: none;
+        margin-left: 0;
+
+    }
+    .contact-section .card-content .icon img{
+        width: 70px;
+        height: 70px;
+        background-color:#f1f2f6;
+        padding: 5px;
+        border-radius: 50%;
+        margin-top: 0;
+    
+    }
+}
+@media only screen and (max-width: 600px) {
+    .contact-section{
+        /* background-color: red; */
+    }
+    .contact-section .card-content .icon{
+        display: inline-block;
+        margin-right: 5px;
+    }
+    .contact-section .card-content .body-content{
+        display: inline-block;
+        
+    }
+}
+
+/* ----- End Media ------*/
+/*---------------------- End Syles Of Contact Section ----------------------*/
+
+
+/*---------------------- Start Syles Of Location Section ----------------------*/
+.location-section {
+    position: relative;
+}
+.location-section .info{
+    position: absolute;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 5px 5px 30px #00000029;
+    border-radius: 10px;
+    width: 70%;
+    z-index: 99;
+    margin-top: -100px;
+    left: 15%;
+}
+.location-section .info .content{
+    margin: 0 auto;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    font: normal normal normal 20px/24px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #707070;
+
+}
+/*---------------------- End Syles Of Location Section ----------------------*/
+
+/*---------------------- Start Syles Of Footer Section ----------------------*/
+.footer-section{
+    padding-top: 40px;
+    background: #F8F9FA 0% 0% no-repeat padding-box;
+
+}
+.footer-section .last-content{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.footer-section .logo{
+    
+}
+.footer-section .logo img{
+    width: 179px;
+    height: 97px;
+}
+.footer-section .content{
+    padding-top: 10px;
+}
+
+.footer-section .content p{
+    color: #707070;
+    text-align: left;
+    font: normal normal normal 14px/19px PT Sans;
+    letter-spacing: 0px;
+}
+.footer-section .one{
+    width: 220px;
+}
+.footer-section .two{
+    width: 128px;
+}
+.footer-section .social-media{
+
+}
+.footer-section .social-media h5{
+    text-align: left;
+    font: normal normal bold 14px/30px PT Sans;
+    letter-spacing: 0px;
+    color: #595E64;
+    margin-bottom: 0;
+}
+.footer-section .social-media ul li{
+    display: inline-block;
+    border-radius: 50px;
+    margin: 4px;
+}
+.footer-section .social-media ul li img{
+
+}
+.footer-section .last-content{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 5px 5px 30px #00000029;
+    border-radius: 4px;
+}
+.footer-section .last-content p {
+    font: normal normal normal 14px/24px PT Sans;
+    letter-spacing: 0px;
+    color: #595E64;
+    padding: 25px;
+    margin-bottom: 0;
+}
+.footer-section .last-content p span{
+
+}
+.footer-section .last-content p img{
+    padding-top: 0px;
+    padding-bottom: 5px;
+    margin-left: 2px;
+}
+
+/* ----- Start Media ------*/
+
+@media screen and (min-width:600px) and (max-width: 992px){
+    .footer-section{
+      padding-top: 15px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .footer-section{
+        padding-top: 10px;
+    }
+}
+
+/* ----- End Media ------*/
+
+/*---------------------- End Syles Of Footer Section ----------------------*/
+
+

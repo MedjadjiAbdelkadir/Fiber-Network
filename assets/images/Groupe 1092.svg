@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="49.138" height="48.607" viewBox="0 0 49.138 48.607">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff8557"/>
+      <stop offset="1" stop-color="#ffd26b"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_660" data-name="Rectangle 660" width="49.138" height="48.607" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+    </clipPath>
+  </defs>
+  <g id="Groupe_1092" data-name="Groupe 1092" transform="translate(0 0)">
+    <g id="Groupe_1091" data-name="Groupe 1091" clip-path="url(#clip-path)">
+      <path id="Tracé_52" data-name="Tracé 52" d="M27.6,0H19.253V38.23H6.459v6.513h10.8a6.851,6.851,0,0,0,12.331,0h10.8l0-6.513H27.6ZM20.253,1H26.6V38.23H20.253ZM39.388,39.23l0,4.513H28.935l-.129.3a5.85,5.85,0,0,1-10.767,0l-.13-.3H7.459V39.23H39.388Z" fill="url(#linear-gradient)"/>
+      <path id="Tracé_53" data-name="Tracé 53" d="M49.138,31.687,30.844,12.778V31.687H49.138ZM31.844,15.25,46.78,30.687H35.645v-3.8h-3.8Zm0,12.636h2.8v2.8h-2.8Z" fill="url(#linear-gradient)"/>
+      <path id="Tracé_54" data-name="Tracé 54" d="M16.559,16.031a.5.5,0,0,0,0-1H6.665a.5.5,0,0,0-.492.409L3.839,28.034.954,21.79A.5.5,0,0,0,0,22a.511.511,0,0,0,.046.21l3.545,7.67a.5.5,0,0,0,.454.29.44.44,0,0,0,.062,0,.5.5,0,0,0,.43-.406L7.081,16.031Z" fill="url(#linear-gradient)"/>
+      <path id="Tracé_55" data-name="Tracé 55" d="M14.444,21.2l-2.4,2.4-2.4-2.4-.707.707,2.4,2.4-2.4,2.4.707.707,2.4-2.4,2.4,2.4.707-.707-2.4-2.4,2.4-2.4Z" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>
