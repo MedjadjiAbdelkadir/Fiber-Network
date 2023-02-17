@@ -16,6 +16,6 @@ It is a website for Fiber Network
 ├─ `css` \
 ├─ `js` \
 ├─ `public` \
-├─ `index.html`
+├─ `index.html` \
 ├─ `README.md`
 
