@@ -1,0 +1,14 @@
+<svg id="Groupe_1094" data-name="Groupe 1094" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35.97" height="48.209" viewBox="0 0 35.97 48.209">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff8557"/>
+      <stop offset="1" stop-color="#ffd26b"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_661" data-name="Rectangle 661" width="35.97" height="48.209" fill="url(#linear-gradient)"/>
+    </clipPath>
+  </defs>
+  <g id="Groupe_1093" data-name="Groupe 1093" clip-path="url(#clip-path)">
+    <path id="Tracé_56" data-name="Tracé 56" d="M35.47,38.467H34.222V31.1a.5.5,0,0,0-.5-.5H31.6V25.854a.5.5,0,0,0-.5-.5H29.851V12.74a.5.5,0,0,0-.5-.5H28.1V.5a.5.5,0,0,0-1,0V12.24H25.479V.5a.5.5,0,0,0-1,0V12.24H22.857V.5a.5.5,0,0,0-1,0V12.24h-1.62V6.62a.5.5,0,0,0-.5-.5h-3.5a.5.5,0,0,0-.5.5v5.62H14.114V.5a.5.5,0,0,0-1,0V12.24H11.491V.5a.5.5,0,0,0-1,0V12.24H8.869V.5a.5.5,0,0,0-1,0V12.24H6.62a.5.5,0,0,0-.5.5V25.354H4.872a.5.5,0,0,0-.5.5V30.6H2.249a.5.5,0,0,0-.5.5v7.368H.5a.5.5,0,0,0-.5.5v8.742a.5.5,0,0,0,1,0V39.467H34.97v8.242a.5.5,0,0,0,1,0V38.967a.5.5,0,0,0-.5-.5M28.851,25.354H20.234V13.24h8.617ZM16.737,7.12h2.5v5.605l0,.015V25.354h-2.5V7.12ZM7.12,13.24h8.617V25.354H7.12ZM5.372,26.354H30.6V30.6H5.372ZM2.749,31.6H33.222v6.868H2.749Z" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
